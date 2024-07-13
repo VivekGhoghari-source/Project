@@ -21,8 +21,8 @@
 .right{
     display: inline-block;
     position: absolute;
-    right: 20px;
-    top: 21px;
+    right: 40px;
+    top: 40px;
 }
 .btn {
     font-family: "Playwrite PE", cursive;
@@ -75,6 +75,7 @@
 
 }
 .h{
+    color: #e39191cd;
     text-align: center;
     font-weight: 50%;
 }
@@ -101,6 +102,7 @@
     font-size: 20px;
     cursor: pointer;
 }
+
 .tab{
     border: 2px solid rgb(226, 209, 209);
     border-radius: 10px;
@@ -114,6 +116,7 @@
 th, td {
     border: 1px solid #ffffff;
     padding: 4px;
+    background-color: #e39191;
 }
 .p1{
     font-weight: bolder;
@@ -125,7 +128,7 @@ th, td {
     bottom: 60px;
 }
 .p2{
-    color: white;
+    color: #e39191;
     position: fixed;
     right: 90px;
     bottom: 48px;
