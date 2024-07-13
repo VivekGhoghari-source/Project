@@ -57,6 +57,7 @@
 .navbar li a:hover , .navbar li a.active{
     text-decoration: underline;
     color: grey;
+    font-size: 25px;
 }
 
 .container{
@@ -82,6 +83,9 @@
     padding: 3px 0px;
     border-radius: 15px;
     font-family: "Playwrite PE", cursive;
+}
+.form-group input:hover{
+    font-size: 20px;
 }
 .btn2{
     font-family: "Playwrite PE", cursive;
