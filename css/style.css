@@ -44,6 +44,7 @@
 }
 .navbar{
     display: inline-block;
+    line-height: normal;
 }
 .navbar li{
     display: inline-block;
@@ -56,23 +57,26 @@
 }
 .navbar li a:hover , .navbar li a.active{
     text-decoration: underline;
-    color: grey;
+    color: #e39191;
     font-size: 25px;
+    
 }
 
 .container{
-    border-radius: 15 px;
+    border: 2px solid white;
+    border-radius: 50px;
     color: white;
     display: inline-block;
     position: absolute;
     left: 20px;
     top: 21px;
-    margin: 103px -109px;
-    padding: 40px 160px;
+    margin: 108px 80px;
+    padding: 43px 34px;
 
 }
 .h{
     text-align: center;
+    font-weight: 50%;
 }
 .form-group input{
     font-size: 15px;
@@ -98,10 +102,32 @@
     cursor: pointer;
 }
 .tab{
+    border: 2px solid rgb(226, 209, 209);
+    border-radius: 10px;
     color: white;
     position: absolute;
     right: 150px;
     top: 180px;
     text-align: center;
     padding: 10px; 
+}
+th, td {
+    border: 1px solid #ffffff;
+    padding: 4px;
+}
+.p1{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.im{
+    position: fixed;
+    right: 200px;
+    bottom: 60px;
+}
+.p2{
+    color: white;
+    position: fixed;
+    right: 90px;
+    bottom: 48px;
+    font-weight: bolder;
 }
